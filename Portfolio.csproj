@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\keyWest.JPG" />
+    <Content Remove="wwwroot\img\windyCityGuideRightFoundation.JPG" />
+    <Content Remove="wwwroot\img\woodsonSampleWebsite.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\keyWest.jpg" />
+    <None Include="wwwroot\img\windyCityGuideRightFoundation.jpg" />
+    <None Include="wwwroot\img\woodsonSampleWebsite.jpg" />
+  </ItemGroup>
+
+</Project>
